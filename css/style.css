@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.item-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bar{
+    padding: 0 72px;
+}
+.container{
+    padding: 72px;
+}
+.logo{
+   width: 60px;
+}
+.active{
+    background: orange;
+}
+.conect{
+    border-radius: 3px;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+.no-active{
+    background: black;
+}
+.no-active:hover{
+    background: #22BBEA;
+}
+.link{
+    padding: 10px ;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.col-12{
+    width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 3px 20px rgb(179, 179, 179);
+    border-radius: 10px;
+}
+.card h1{
+    width: 100%;
+    text-align: center;
+}
+.flag>img{
+    width: 200px;
+    height: 100px;
+}
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 10px;
+}
+.name:last-child{
+    margin-top: 20px;
+}
+.name> li{
+    font-size: 20px;
+}
+/* Challenge */
+.card-12{
+    width: 1000px;
+}
+.sidebar-left{
+    padding: 20px;
+    display: flex;
+}
+.icon img {
+    width: 70px;
+    height: 70px;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+b{
+    margin: 0 2rem;
+}
+.description{
+    padding: 0 10px;
+}
+p{
+    font-size: 20px;
+}
+strong{
+    width: 100%;
+    font-size: 100px;
+}
